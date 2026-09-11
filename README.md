@@ -1,11 +1,11 @@
-# Interactive Egg Poster — popup version
+# Interactive Egg Poster — compact popup version
 
-Tap/click an egg to open a small taxon card.
+Tap/click an egg to reveal:
 - Common name
 - Scientific name
-- "Learn about this bird" button to Birds of the World
-- Unknown specimens remain on-page and do not open an external link
+- Small "Learn more →" button to Birds of the World
 
 Desktop hover still shows the taxon name.
+Unknown specimens remain on-page without an external link.
 
 Public hotspot data intentionally omits ZMH catalogue numbers.
