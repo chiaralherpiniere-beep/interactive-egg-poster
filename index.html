@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
+<title>LIB Ornithology Egg Poster</title>
+<style>
+html,body{margin:0;background:#111;font-family:Arial,sans-serif}
+.wrap{position:relative;width:min(100vw,1000px);margin:auto;line-height:0}
+#poster{display:block;width:100%;height:auto}
+.hotspot{position:absolute;transform:translate(-50%,-50%);border:0;border-radius:50%;
+background:transparent;cursor:pointer;line-height:normal;padding:0}
+.hotspot:focus,.hotspot:hover{outline:2px solid rgba(255,255,255,.9);background:rgba(255,255,255,.16)}
+#tip{position:fixed;z-index:10;display:none;pointer-events:none;background:#111;color:white;
+padding:7px 9px;border-radius:6px;font-size:14px;line-height:1.25;max-width:260px}
+</style>
+</head>
+<body>
+<div class="wrap" id="wrap">
+<img id="poster" src="poster.png" alt="Ornithology Hamburg egg poster">
+</div>
+<div id="tip"></div>
+<script>
+const wrap=document.getElementById('wrap'), tip=document.getElementById('tip');
+fetch('hotspots.json').then(r=>r.json()).then(items=>{
+  items.forEach(h=>{
+    const b=document.createElement('button');
+    b.className='hotspot'; b.type='button'; b.setAttribute('aria-label',h.label);
+    b.style.left=h.x+'%'; b.style.top=h.y+'%';
+    b.style.width=(h.r*2)+'%'; b.style.aspectRatio='1';
+    b.title=h.label;
+    const show=e=>{tip.textContent=h.label;tip.style.display='block';
+      tip.style.left=(e.clientX+12)+'px';tip.style.top=(e.clientY+12)+'px'};
+    b.addEventListener('mousemove',show);
+    b.addEventListener('mouseleave',()=>tip.style.display='none');
+    b.addEventListener('click',()=>{ if(h.url) window.open(h.url,'_blank','noopener'); else alert(h.label); });
+    wrap.appendChild(b);
+  });
+});
+</script>
+</body></html>
