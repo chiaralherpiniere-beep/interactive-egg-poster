@@ -5,37 +5,136 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
 <title>LIB Ornithology Egg Poster</title>
 <style>
-html,body{margin:0;background:#111;font-family:Arial,sans-serif}
-.wrap{position:relative;width:min(100vw,1000px);margin:auto;line-height:0}
+:root{--card:#ffffff;--text:#202020;--muted:#5d5d5d;--accent:#d81b60}
+html,body{margin:0;background:#111;font-family:Arial,Helvetica,sans-serif}
+.wrap{position:relative;width:min(100vw,1000px);margin:auto;line-height:0;touch-action:pan-x pan-y pinch-zoom}
 #poster{display:block;width:100%;height:auto}
-.hotspot{position:absolute;transform:translate(-50%,-50%);border:0;border-radius:50%;
-background:transparent;cursor:pointer;line-height:normal;padding:0}
-.hotspot:focus,.hotspot:hover{outline:2px solid rgba(255,255,255,.9);background:rgba(255,255,255,.16)}
-#tip{position:fixed;z-index:10;display:none;pointer-events:none;background:#111;color:white;
-padding:7px 9px;border-radius:6px;font-size:14px;line-height:1.25;max-width:260px}
+.hotspot{
+  position:absolute;transform:translate(-50%,-50%);border:0;border-radius:50%;
+  background:transparent;cursor:pointer;padding:0;line-height:normal;
+  -webkit-tap-highlight-color:transparent;
+}
+.hotspot:hover,.hotspot:focus-visible{
+  outline:2px solid rgba(255,255,255,.92);
+  background:rgba(255,255,255,.16);
+}
+#hoverTip{
+  position:fixed;z-index:20;display:none;pointer-events:none;background:#111;color:#fff;
+  padding:7px 9px;border-radius:6px;font-size:14px;line-height:1.25;max-width:260px;
+  box-shadow:0 3px 12px rgba(0,0,0,.25)
+}
+#card{
+  position:fixed;z-index:30;display:none;width:min(310px,calc(100vw - 28px));
+  box-sizing:border-box;background:var(--card);color:var(--text);border-radius:14px;
+  padding:16px 16px 14px;box-shadow:0 10px 35px rgba(0,0,0,.34);line-height:1.25;
+}
+#card .common{font-size:18px;font-weight:700;margin:0 28px 4px 0}
+#card .scientific{font-size:15px;font-style:italic;color:var(--muted);margin-bottom:13px}
+#card .unknown{font-size:15px;color:var(--muted);margin-bottom:2px}
+#learn{
+  display:inline-block;text-decoration:none;background:var(--accent);color:#fff;
+  padding:9px 12px;border-radius:9px;font-weight:700;font-size:14px
+}
+#close{
+  position:absolute;right:9px;top:8px;border:0;background:transparent;
+  font-size:24px;line-height:1;cursor:pointer;color:#555;padding:2px 6px
+}
+@media (hover:none){
+  .hotspot:hover{outline:none;background:transparent}
+}
 </style>
 </head>
 <body>
 <div class="wrap" id="wrap">
-<img id="poster" src="poster.png" alt="Ornithology Hamburg egg poster">
+  <img id="poster" src="poster.png" alt="Ornithology Hamburg egg poster">
 </div>
-<div id="tip"></div>
+
+<div id="hoverTip"></div>
+
+<div id="card" role="dialog" aria-live="polite">
+  <button id="close" aria-label="Close">×</button>
+  <div id="common" class="common"></div>
+  <div id="scientific" class="scientific"></div>
+  <a id="learn" href="#" target="_blank" rel="noopener">Learn about this bird →</a>
+  <div id="unknown" class="unknown" style="display:none">No external species page is available for this specimen.</div>
+</div>
+
 <script>
-const wrap=document.getElementById('wrap'), tip=document.getElementById('tip');
+const wrap=document.getElementById('wrap');
+const hoverTip=document.getElementById('hoverTip');
+const card=document.getElementById('card');
+const commonEl=document.getElementById('common');
+const sciEl=document.getElementById('scientific');
+const learn=document.getElementById('learn');
+const unknown=document.getElementById('unknown');
+const closeBtn=document.getElementById('close');
+
+function hoverLabel(h){
+  return h.common ? `${h.common} — ${h.scientific}` : h.scientific;
+}
+
+function placeCard(clientX,clientY){
+  card.style.display='block';
+  const pad=12;
+  const r=card.getBoundingClientRect();
+  let left=clientX+14, top=clientY+14;
+  if(left+r.width>window.innerWidth-pad) left=clientX-r.width-14;
+  if(top+r.height>window.innerHeight-pad) top=clientY-r.height-14;
+  left=Math.max(pad,Math.min(left,window.innerWidth-r.width-pad));
+  top=Math.max(pad,Math.min(top,window.innerHeight-r.height-pad));
+  card.style.left=left+'px'; card.style.top=top+'px';
+}
+
+function openCard(h,e){
+  commonEl.textContent=h.common || (h.scientific==="Species unknown" ? "Unidentified specimen" : "");
+  sciEl.textContent=h.scientific==="Species unknown" ? "" : h.scientific;
+  sciEl.style.display=sciEl.textContent ? 'block' : 'none';
+
+  if(h.url){
+    learn.href=h.url;
+    learn.style.display='inline-block';
+    unknown.style.display='none';
+  } else {
+    learn.style.display='none';
+    unknown.style.display='block';
+  }
+  hoverTip.style.display='none';
+  placeCard(e.clientX,e.clientY);
+}
+
 fetch('hotspots.json').then(r=>r.json()).then(items=>{
   items.forEach(h=>{
     const b=document.createElement('button');
-    b.className='hotspot'; b.type='button'; b.setAttribute('aria-label',h.label);
-    b.style.left=h.x+'%'; b.style.top=h.y+'%';
-    b.style.width=(h.r*2)+'%'; b.style.aspectRatio='1';
-    b.title=h.label;
-    const show=e=>{tip.textContent=h.label;tip.style.display='block';
-      tip.style.left=(e.clientX+12)+'px';tip.style.top=(e.clientY+12)+'px'};
-    b.addEventListener('mousemove',show);
-    b.addEventListener('mouseleave',()=>tip.style.display='none');
-    b.addEventListener('click',()=>{ if(h.url) window.open(h.url,'_blank','noopener'); else alert(h.label); });
+    b.className='hotspot';
+    b.type='button';
+    b.setAttribute('aria-label',hoverLabel(h));
+    b.style.left=h.x+'%';
+    b.style.top=h.y+'%';
+    b.style.width=(h.r*2)+'%';
+    b.style.aspectRatio='1';
+
+    b.addEventListener('mousemove',e=>{
+      if(matchMedia('(hover:hover)').matches){
+        hoverTip.textContent=hoverLabel(h);
+        hoverTip.style.display='block';
+        hoverTip.style.left=(e.clientX+12)+'px';
+        hoverTip.style.top=(e.clientY+12)+'px';
+      }
+    });
+    b.addEventListener('mouseleave',()=>hoverTip.style.display='none');
+    b.addEventListener('click',e=>{
+      e.stopPropagation();
+      openCard(h,e);
+    });
     wrap.appendChild(b);
   });
 });
+
+closeBtn.addEventListener('click',()=>card.style.display='none');
+document.addEventListener('click',e=>{
+  if(!card.contains(e.target)) card.style.display='none';
+});
+window.addEventListener('resize',()=>card.style.display='none');
 </script>
-</body></html>
+</body>
+</html>

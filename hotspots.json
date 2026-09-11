@@ -4,7 +4,8 @@
     "x": 20.3823,
     "y": 83.7367,
     "r": 1.8,
-    "label": "Common Ostrich — Struthio camelus",
+    "common": "Common Ostrich",
+    "scientific": "Struthio camelus",
     "url": "https://birdsoftheworld.org/bow/species/ostric2/cur/introduction"
   },
   {
@@ -12,7 +13,8 @@
     "x": 36.9626,
     "y": 84.8166,
     "r": 1.8,
-    "label": "Dromaius",
+    "common": "",
+    "scientific": "Dromaius",
     "url": "https://birdsoftheworld.org/bow/species/casuar1/cur/introduction"
   },
   {
@@ -20,7 +22,8 @@
     "x": 49.6767,
     "y": 85.6221,
     "r": 1.8,
-    "label": "Greater Rhea — Rhea americana",
+    "common": "Greater Rhea",
+    "scientific": "Rhea americana",
     "url": "https://birdsoftheworld.org/bow/species/grerhe1/cur/introduction"
   },
   {
@@ -28,7 +31,8 @@
     "x": 62.8731,
     "y": 86.0405,
     "r": 1.8,
-    "label": "Casuarius",
+    "common": "",
+    "scientific": "Casuarius",
     "url": "https://birdsoftheworld.org/bow/species/casuar1/cur/introduction"
   },
   {
@@ -36,7 +40,8 @@
     "x": 74.0046,
     "y": 85.2037,
     "r": 1.8,
-    "label": "Anser",
+    "common": "",
+    "scientific": "Anser",
     "url": "https://birdsoftheworld.org/bow/species/anatid1/cur/introduction"
   },
   {
@@ -44,7 +49,8 @@
     "x": 84.2936,
     "y": 82.1317,
     "r": 1.8,
-    "label": "Dromaius",
+    "common": "",
+    "scientific": "Dromaius",
     "url": "https://birdsoftheworld.org/bow/species/casuar1/cur/introduction"
   },
   {
@@ -52,7 +58,8 @@
     "x": 85.0439,
     "y": 69.5428,
     "r": 1.8,
-    "label": "Mute Swan — Cygnus olor",
+    "common": "Mute Swan",
+    "scientific": "Cygnus olor",
     "url": "https://birdsoftheworld.org/bow/species/mutswa/cur/introduction"
   },
   {
@@ -60,7 +67,8 @@
     "x": 74.4124,
     "y": 73.1976,
     "r": 1.8,
-    "label": "Mute Swan — Cygnus olor",
+    "common": "Mute Swan",
+    "scientific": "Cygnus olor",
     "url": "https://birdsoftheworld.org/bow/species/mutswa/cur/introduction"
   },
   {
@@ -68,7 +76,8 @@
     "x": 64.3119,
     "y": 74.9517,
     "r": 1.8,
-    "label": "Black Swan — Cygnus atratus",
+    "common": "Black Swan",
+    "scientific": "Cygnus atratus",
     "url": "https://birdsoftheworld.org/bow/species/blkswa/cur/introduction"
   },
   {
@@ -76,7 +85,8 @@
     "x": 55.9587,
     "y": 76.006,
     "r": 1.8,
-    "label": "Common Crane — Grus grus",
+    "common": "Common Crane",
+    "scientific": "Grus grus",
     "url": "https://birdsoftheworld.org/bow/species/comcra/cur/introduction"
   },
   {
@@ -84,7 +94,8 @@
     "x": 48.011,
     "y": 76.6351,
     "r": 1.8,
-    "label": "Common Murre — Uria aalge",
+    "common": "Common Murre",
+    "scientific": "Uria aalge",
     "url": "https://birdsoftheworld.org/bow/species/commur/cur/introduction"
   },
   {
@@ -92,7 +103,8 @@
     "x": 41.1631,
     "y": 75.3818,
     "r": 1.8,
-    "label": "Demoiselle Crane — Grus virgo",
+    "common": "Demoiselle Crane",
+    "scientific": "Grus virgo",
     "url": "https://birdsoftheworld.org/bow/species/demcra1/cur/introduction"
   },
   {
@@ -100,7 +112,8 @@
     "x": 34.4209,
     "y": 75.5453,
     "r": 1.8,
-    "label": "Thick-billed Murre — Uria lomvia",
+    "common": "Thick-billed Murre",
+    "scientific": "Uria lomvia",
     "url": "https://birdsoftheworld.org/bow/species/thbmur/cur/introduction"
   },
   {
@@ -108,7 +121,8 @@
     "x": 28.3402,
     "y": 72.385,
     "r": 1.8,
-    "label": "Gallus",
+    "common": "",
+    "scientific": "Gallus",
     "url": "https://birdsoftheworld.org/bow/species/phasia1/cur/introduction"
   },
   {
@@ -116,7 +130,8 @@
     "x": 21.7518,
     "y": 70.36,
     "r": 1.8,
-    "label": "Red Kite — Milvus milvus",
+    "common": "Red Kite",
+    "scientific": "Milvus milvus",
     "url": "https://birdsoftheworld.org/bow/species/redkit1/cur/introduction"
   },
   {
@@ -124,7 +139,8 @@
     "x": 15.2425,
     "y": 69.0497,
     "r": 1.8,
-    "label": "Gallus",
+    "common": "",
+    "scientific": "Gallus",
     "url": "https://birdsoftheworld.org/bow/species/phasia1/cur/introduction"
   },
   {
@@ -132,7 +148,8 @@
     "x": 32.0461,
     "y": 66.0105,
     "r": 1.8,
-    "label": "Common Murre — Uria aalge",
+    "common": "Common Murre",
+    "scientific": "Uria aalge",
     "url": "https://birdsoftheworld.org/bow/species/commur/cur/introduction"
   },
   {
@@ -140,7 +157,8 @@
     "x": 39.3184,
     "y": 66.0105,
     "r": 1.8,
-    "label": "Thick-billed Murre — Uria lomvia",
+    "common": "Thick-billed Murre",
+    "scientific": "Uria lomvia",
     "url": "https://birdsoftheworld.org/bow/species/thbmur/cur/introduction"
   },
   {
@@ -148,7 +166,8 @@
     "x": 47.1966,
     "y": 66.8928,
     "r": 1.8,
-    "label": "Razorbill — Alca torda",
+    "common": "Razorbill",
+    "scientific": "Alca torda",
     "url": "https://birdsoftheworld.org/bow/species/razorb/cur/introduction"
   },
   {
@@ -156,7 +175,8 @@
     "x": 55.4906,
     "y": 67.5142,
     "r": 1.8,
-    "label": "Golden Eagle — Aquila chrysaetos",
+    "common": "Golden Eagle",
+    "scientific": "Aquila chrysaetos",
     "url": "https://birdsoftheworld.org/bow/species/goleag/cur/introduction"
   },
   {
@@ -164,7 +184,8 @@
     "x": 63.7624,
     "y": 66.1256,
     "r": 1.8,
-    "label": "Common Murre — Uria aalge",
+    "common": "Common Murre",
+    "scientific": "Uria aalge",
     "url": "https://birdsoftheworld.org/bow/species/commur/cur/introduction"
   },
   {
@@ -172,7 +193,8 @@
     "x": 70.6883,
     "y": 64.8272,
     "r": 1.8,
-    "label": "Common Murre — Uria aalge",
+    "common": "Common Murre",
+    "scientific": "Uria aalge",
     "url": "https://birdsoftheworld.org/bow/species/commur/cur/introduction"
   },
   {
@@ -180,7 +202,8 @@
     "x": 79.0711,
     "y": 62.6808,
     "r": 1.8,
-    "label": "Great Black-backed Gull — Larus marinus",
+    "common": "Great Black-backed Gull",
+    "scientific": "Larus marinus",
     "url": "https://birdsoftheworld.org/bow/species/gbbgul/cur/introduction"
   },
   {
@@ -188,7 +211,8 @@
     "x": 86.3185,
     "y": 60.3918,
     "r": 1.8,
-    "label": "Eurasian Curlew — Numenius arquata",
+    "common": "Eurasian Curlew",
+    "scientific": "Numenius arquata",
     "url": "https://birdsoftheworld.org/bow/species/eurcur/cur/introduction"
   },
   {
@@ -196,7 +220,8 @@
     "x": 85.6145,
     "y": 52.7487,
     "r": 1.8,
-    "label": "Razorbill — Alca torda",
+    "common": "Razorbill",
+    "scientific": "Alca torda",
     "url": "https://birdsoftheworld.org/bow/species/razorb/cur/introduction"
   },
   {
@@ -204,7 +229,8 @@
     "x": 78.5954,
     "y": 54.8553,
     "r": 1.8,
-    "label": "European Herring Gull — Larus argentatus",
+    "common": "European Herring Gull",
+    "scientific": "Larus argentatus",
     "url": "https://birdsoftheworld.org/bow/species/euhgul1/cur/introduction"
   },
   {
@@ -212,7 +238,8 @@
     "x": 58.553,
     "y": 59.4424,
     "r": 1.8,
-    "label": "European Herring Gull — Larus argentatus",
+    "common": "European Herring Gull",
+    "scientific": "Larus argentatus",
     "url": "https://birdsoftheworld.org/bow/species/euhgul1/cur/introduction"
   },
   {
@@ -220,7 +247,8 @@
     "x": 51.198,
     "y": 59.797,
     "r": 1.8,
-    "label": "Stercorarius",
+    "common": "",
+    "scientific": "Stercorarius",
     "url": "https://birdsoftheworld.org/bow/species/sterco1/cur/introduction"
   },
   {
@@ -228,7 +256,8 @@
     "x": 43.8812,
     "y": 59.6681,
     "r": 1.8,
-    "label": "Gavia",
+    "common": "",
+    "scientific": "Gavia",
     "url": "https://birdsoftheworld.org/bow/species/gaviid1/cur/introduction"
   },
   {
@@ -236,7 +265,8 @@
     "x": 14.0382,
     "y": 52.2609,
     "r": 1.8,
-    "label": "King Eider — Somateria spectabilis",
+    "common": "King Eider",
+    "scientific": "Somateria spectabilis",
     "url": "https://birdsoftheworld.org/bow/species/kineid/cur/introduction"
   },
   {
@@ -244,7 +274,8 @@
     "x": 13.3798,
     "y": 45.0696,
     "r": 1.8,
-    "label": "Osprey — Pandion haliaetus",
+    "common": "Osprey",
+    "scientific": "Pandion haliaetus",
     "url": "https://birdsoftheworld.org/bow/species/osprey/cur/introduction"
   },
   {
@@ -252,7 +283,8 @@
     "x": 20.4219,
     "y": 49.0284,
     "r": 1.8,
-    "label": "Eurasian Curlew — Numenius arquata",
+    "common": "Eurasian Curlew",
+    "scientific": "Numenius arquata",
     "url": "https://birdsoftheworld.org/bow/species/eurcur/cur/introduction"
   },
   {
@@ -260,7 +292,8 @@
     "x": 27.9046,
     "y": 50.4302,
     "r": 1.8,
-    "label": "Common Goldeneye — Bucephala clangula",
+    "common": "Common Goldeneye",
+    "scientific": "Bucephala clangula",
     "url": "https://birdsoftheworld.org/bow/species/comgol/cur/introduction"
   },
   {
@@ -268,7 +301,8 @@
     "x": 34.1865,
     "y": 51.8996,
     "r": 1.8,
-    "label": "Black-headed Gull — Chroicocephalus ridibundus",
+    "common": "Black-headed Gull",
+    "scientific": "Chroicocephalus ridibundus",
     "url": "https://birdsoftheworld.org/bow/species/bkhgul/cur/introduction"
   },
   {
@@ -276,7 +310,8 @@
     "x": 40.3104,
     "y": 52.6377,
     "r": 1.8,
-    "label": "Black-tailed Godwit — Limosa limosa",
+    "common": "Black-tailed Godwit",
+    "scientific": "Limosa limosa",
     "url": "https://birdsoftheworld.org/bow/species/bktgod/cur/introduction"
   },
   {
@@ -284,7 +319,8 @@
     "x": 46.0294,
     "y": 53.1071,
     "r": 1.8,
-    "label": "Red Junglefowl — Gallus gallus",
+    "common": "Red Junglefowl",
+    "scientific": "Gallus gallus",
     "url": "https://birdsoftheworld.org/bow/species/redjun/cur/introduction"
   },
   {
@@ -292,7 +328,8 @@
     "x": 51.801,
     "y": 52.2465,
     "r": 1.8,
-    "label": "Black-tailed Godwit — Limosa limosa",
+    "common": "Black-tailed Godwit",
+    "scientific": "Limosa limosa",
     "url": "https://birdsoftheworld.org/bow/species/bktgod/cur/introduction"
   },
   {
@@ -300,7 +337,8 @@
     "x": 58.7368,
     "y": 51.6228,
     "r": 1.8,
-    "label": "Eurasian Eagle-Owl — Bubo bubo",
+    "common": "Eurasian Eagle-Owl",
+    "scientific": "Bubo bubo",
     "url": "https://birdsoftheworld.org/bow/species/eueowl1/cur/introduction"
   },
   {
@@ -308,7 +346,8 @@
     "x": 65.7132,
     "y": 51.1755,
     "r": 1.8,
-    "label": "Red Junglefowl — Gallus gallus",
+    "common": "Red Junglefowl",
+    "scientific": "Gallus gallus",
     "url": "https://birdsoftheworld.org/bow/species/redjun/cur/introduction"
   },
   {
@@ -316,7 +355,8 @@
     "x": 70.9384,
     "y": 50.3045,
     "r": 1.8,
-    "label": "Gallus",
+    "common": "",
+    "scientific": "Gallus",
     "url": "https://birdsoftheworld.org/bow/species/phasia1/cur/introduction"
   },
   {
@@ -324,7 +364,8 @@
     "x": 75.7798,
     "y": 48.431,
     "r": 1.8,
-    "label": "European Honey Buzzard — Pernis apivorus",
+    "common": "European Honey Buzzard",
+    "scientific": "Pernis apivorus",
     "url": "https://birdsoftheworld.org/bow/species/euhbuz1/cur/introduction"
   },
   {
@@ -332,7 +373,8 @@
     "x": 81.3969,
     "y": 46.7994,
     "r": 1.8,
-    "label": "Glossy Ibis — Plegadis falcinellus",
+    "common": "Glossy Ibis",
+    "scientific": "Plegadis falcinellus",
     "url": "https://birdsoftheworld.org/bow/species/gloibi/cur/introduction"
   },
   {
@@ -340,7 +382,8 @@
     "x": 87.4016,
     "y": 46.4873,
     "r": 1.8,
-    "label": "Gallus",
+    "common": "",
+    "scientific": "Gallus",
     "url": "https://birdsoftheworld.org/bow/species/phasia1/cur/introduction"
   },
   {
@@ -348,7 +391,8 @@
     "x": 86.7338,
     "y": 39.7338,
     "r": 1.8,
-    "label": "European Golden Plover — Pluvialis apricaria",
+    "common": "European Golden Plover",
+    "scientific": "Pluvialis apricaria",
     "url": "https://birdsoftheworld.org/bow/species/eugplo/cur/introduction"
   },
   {
@@ -356,7 +400,8 @@
     "x": 81.1177,
     "y": 40.8915,
     "r": 1.8,
-    "label": "Curve-billed Tinamou — Nothoprocta curvirostris",
+    "common": "Curve-billed Tinamou",
+    "scientific": "Nothoprocta curvirostris",
     "url": "https://birdsoftheworld.org/bow/species/cubtin1/cur/introduction"
   },
   {
@@ -364,7 +409,8 @@
     "x": 74.9449,
     "y": 42.3422,
     "r": 1.8,
-    "label": "Ardea",
+    "common": "",
+    "scientific": "Ardea",
     "url": "https://birdsoftheworld.org/bow/species/ardeid1/cur/introduction"
   },
   {
@@ -372,7 +418,8 @@
     "x": 69.0652,
     "y": 43.224,
     "r": 1.8,
-    "label": "European Honey Buzzard — Pernis apivorus",
+    "common": "European Honey Buzzard",
+    "scientific": "Pernis apivorus",
     "url": "https://birdsoftheworld.org/bow/species/euhbuz1/cur/introduction"
   },
   {
@@ -380,7 +427,8 @@
     "x": 62.1591,
     "y": 44.8343,
     "r": 1.8,
-    "label": "Eurasian Wigeon — Mareca penelope",
+    "common": "Eurasian Wigeon",
+    "scientific": "Mareca penelope",
     "url": "https://birdsoftheworld.org/bow/species/eurwig/cur/introduction"
   },
   {
@@ -388,7 +436,8 @@
     "x": 55.6265,
     "y": 45.4302,
     "r": 1.8,
-    "label": "Mediterranean Gull — Ichthyaetus melanocephalus",
+    "common": "Mediterranean Gull",
+    "scientific": "Ichthyaetus melanocephalus",
     "url": "https://birdsoftheworld.org/bow/species/medgul1/cur/introduction"
   },
   {
@@ -396,7 +445,8 @@
     "x": 49.3937,
     "y": 46.3727,
     "r": 1.8,
-    "label": "Eurasian Coot — Fulica atra",
+    "common": "Eurasian Coot",
+    "scientific": "Fulica atra",
     "url": "https://birdsoftheworld.org/bow/species/eurcoo/cur/introduction"
   },
   {
@@ -404,7 +454,8 @@
     "x": 43.737,
     "y": 46.7946,
     "r": 1.8,
-    "label": "European Golden Plover — Pluvialis apricaria",
+    "common": "European Golden Plover",
+    "scientific": "Pluvialis apricaria",
     "url": "https://birdsoftheworld.org/bow/species/eugplo/cur/introduction"
   },
   {
@@ -412,7 +463,8 @@
     "x": 37.5127,
     "y": 46.3251,
     "r": 1.8,
-    "label": "Haematopus",
+    "common": "",
+    "scientific": "Haematopus",
     "url": "https://birdsoftheworld.org/bow/species/haemat1/cur/introduction"
   },
   {
@@ -420,7 +472,8 @@
     "x": 31.5846,
     "y": 44.9193,
     "r": 1.8,
-    "label": "Barred Owl — Strix varia",
+    "common": "Barred Owl",
+    "scientific": "Strix varia",
     "url": "https://birdsoftheworld.org/bow/species/brdowl/cur/introduction"
   },
   {
@@ -428,7 +481,8 @@
     "x": 24.3254,
     "y": 43.9703,
     "r": 1.8,
-    "label": "Peregrine Falcon — Falco peregrinus",
+    "common": "Peregrine Falcon",
+    "scientific": "Falco peregrinus",
     "url": "https://birdsoftheworld.org/bow/species/perfal/cur/introduction"
   },
   {
@@ -436,7 +490,8 @@
     "x": 18.5382,
     "y": 41.0561,
     "r": 1.8,
-    "label": "Rhynchotus",
+    "common": "",
+    "scientific": "Rhynchotus",
     "url": "https://birdsoftheworld.org/bow/species/tinami1/cur/introduction"
   },
   {
@@ -444,7 +499,8 @@
     "x": 13.6009,
     "y": 37.0245,
     "r": 1.8,
-    "label": "Eurasian Oystercatcher — Haematopus ostralegus",
+    "common": "Eurasian Oystercatcher",
+    "scientific": "Haematopus ostralegus",
     "url": "https://birdsoftheworld.org/bow/species/euroys1/cur/introduction"
   },
   {
@@ -452,7 +508,8 @@
     "x": 22.8499,
     "y": 37.6144,
     "r": 1.7031,
-    "label": "Slender-billed Gull — Chroicocephalus genei",
+    "common": "Slender-billed Gull",
+    "scientific": "Chroicocephalus genei",
     "url": "https://birdsoftheworld.org/bow/species/slbgul1/cur/introduction"
   },
   {
@@ -460,7 +517,8 @@
     "x": 29.1974,
     "y": 39.5694,
     "r": 1.8,
-    "label": "Northern Lapwing — Vanellus vanellus",
+    "common": "Northern Lapwing",
+    "scientific": "Vanellus vanellus",
     "url": "https://birdsoftheworld.org/bow/species/norlap/cur/introduction"
   },
   {
@@ -468,7 +526,8 @@
     "x": 35.164,
     "y": 40.8575,
     "r": 1.8,
-    "label": "Northern Raven — Corvus corax",
+    "common": "Northern Raven",
+    "scientific": "Corvus corax",
     "url": "https://birdsoftheworld.org/bow/species/comrav/cur/introduction"
   },
   {
@@ -476,7 +535,8 @@
     "x": 41.0605,
     "y": 41.2125,
     "r": 1.8,
-    "label": "Red-necked Grebe — Podiceps grisegena",
+    "common": "Red-necked Grebe",
+    "scientific": "Podiceps grisegena",
     "url": "https://birdsoftheworld.org/bow/species/rengre/cur/introduction"
   },
   {
@@ -484,7 +544,8 @@
     "x": 46.4298,
     "y": 41.0989,
     "r": 1.8,
-    "label": "Guira Cuckoo — Guira guira",
+    "common": "Guira Cuckoo",
+    "scientific": "Guira guira",
     "url": "https://birdsoftheworld.org/bow/species/guicuc1/cur/introduction"
   },
   {
@@ -492,7 +553,8 @@
     "x": 52.1059,
     "y": 40.7776,
     "r": 1.8,
-    "label": "Common Redshank — Tringa totanus",
+    "common": "Common Redshank",
+    "scientific": "Tringa totanus",
     "url": "https://birdsoftheworld.org/bow/species/comred1/cur/introduction"
   },
   {
@@ -500,7 +562,8 @@
     "x": 57.0563,
     "y": 39.9917,
     "r": 1.8,
-    "label": "Carrion Crow — Corvus corone",
+    "common": "Carrion Crow",
+    "scientific": "Corvus corone",
     "url": "https://birdsoftheworld.org/bow/species/carcro1/cur/introduction"
   },
   {
@@ -508,7 +571,8 @@
     "x": 61.9398,
     "y": 39.3931,
     "r": 1.8,
-    "label": "African Snipe — Gallinago nigripennis",
+    "common": "African Snipe",
+    "scientific": "Gallinago nigripennis",
     "url": "https://birdsoftheworld.org/bow/species/afrsni1/cur/introduction"
   },
   {
@@ -516,7 +580,8 @@
     "x": 67.2039,
     "y": 38.4315,
     "r": 1.8,
-    "label": "Eurasian Sparrowhawk — Accipiter nisus",
+    "common": "Eurasian Sparrowhawk",
+    "scientific": "Accipiter nisus",
     "url": "https://birdsoftheworld.org/bow/species/eurspa1/cur/introduction"
   },
   {
@@ -524,7 +589,8 @@
     "x": 72.5611,
     "y": 37.5219,
     "r": 1.8,
-    "label": "Chukar Partridge — Alectoris chukar",
+    "common": "Chukar Partridge",
+    "scientific": "Alectoris chukar",
     "url": "https://birdsoftheworld.org/bow/species/chukar/cur/introduction"
   },
   {
@@ -532,7 +598,8 @@
     "x": 77.4846,
     "y": 36.6911,
     "r": 1.8,
-    "label": "Common Tern — Sterna hirundo",
+    "common": "Common Tern",
+    "scientific": "Sterna hirundo",
     "url": "https://birdsoftheworld.org/bow/species/comter/cur/introduction"
   },
   {
@@ -540,7 +607,8 @@
     "x": 82.4229,
     "y": 35.3741,
     "r": 1.6552,
-    "label": "Carrion Crow — Corvus corone",
+    "common": "Carrion Crow",
+    "scientific": "Corvus corone",
     "url": "https://birdsoftheworld.org/bow/species/carcro1/cur/introduction"
   },
   {
@@ -548,7 +616,8 @@
     "x": 86.9629,
     "y": 34.1913,
     "r": 1.5338,
-    "label": "Gallus",
+    "common": "",
+    "scientific": "Gallus",
     "url": "https://birdsoftheworld.org/bow/species/phasia1/cur/introduction"
   },
   {
@@ -556,7 +625,8 @@
     "x": 86.6211,
     "y": 30.1695,
     "r": 1.5338,
-    "label": "Little Grebe — Tachybaptus ruficollis",
+    "common": "Little Grebe",
+    "scientific": "Tachybaptus ruficollis",
     "url": "https://birdsoftheworld.org/bow/species/litgre1/cur/introduction"
   },
   {
@@ -564,7 +634,8 @@
     "x": 82.2183,
     "y": 31.0231,
     "r": 1.635,
-    "label": "Green-winged Teal — Anas crecca",
+    "common": "Green-winged Teal",
+    "scientific": "Anas crecca",
     "url": "https://birdsoftheworld.org/bow/species/gnwtea/cur/introduction"
   },
   {
@@ -572,7 +643,8 @@
     "x": 77.4797,
     "y": 31.7833,
     "r": 1.5974,
-    "label": "Grey Partridge — Perdix perdix",
+    "common": "Grey Partridge",
+    "scientific": "Perdix perdix",
     "url": "https://birdsoftheworld.org/bow/species/grypar/cur/introduction"
   },
   {
@@ -580,7 +652,8 @@
     "x": 72.5818,
     "y": 32.5484,
     "r": 1.5012,
-    "label": "Rock Dove — Columba livia",
+    "common": "Rock Dove",
+    "scientific": "Columba livia",
     "url": "https://birdsoftheworld.org/bow/species/rocpig/cur/introduction"
   },
   {
@@ -588,7 +661,8 @@
     "x": 67.377,
     "y": 33.3713,
     "r": 1.4775,
-    "label": "White-winged Tern — Chlidonias leucopterus",
+    "common": "White-winged Tern",
+    "scientific": "Chlidonias leucopterus",
     "url": "https://birdsoftheworld.org/bow/species/whwter/cur/introduction"
   },
   {
@@ -596,7 +670,8 @@
     "x": 62.4573,
     "y": 34.1185,
     "r": 1.4228,
-    "label": "Common Kestrel — Falco tinnunculus",
+    "common": "Common Kestrel",
+    "scientific": "Falco tinnunculus",
     "url": "https://birdsoftheworld.org/bow/species/eurkes/cur/introduction"
   },
   {
@@ -604,7 +679,8 @@
     "x": 57.7635,
     "y": 34.7331,
     "r": 1.5116,
-    "label": "Black Tern — Chlidonias niger",
+    "common": "Black Tern",
+    "scientific": "Chlidonias niger",
     "url": "https://birdsoftheworld.org/bow/species/blkter/cur/introduction"
   },
   {
@@ -612,7 +688,8 @@
     "x": 52.6605,
     "y": 35.2672,
     "r": 1.519,
-    "label": "Chukar Partridge — Alectoris chukar",
+    "common": "Chukar Partridge",
+    "scientific": "Alectoris chukar",
     "url": "https://birdsoftheworld.org/bow/species/chukar/cur/introduction"
   },
   {
@@ -620,7 +697,8 @@
     "x": 47.1004,
     "y": 35.5688,
     "r": 1.5717,
-    "label": "Common Redshank — Tringa totanus",
+    "common": "Common Redshank",
+    "scientific": "Tringa totanus",
     "url": "https://birdsoftheworld.org/bow/species/comred1/cur/introduction"
   },
   {
@@ -628,7 +706,8 @@
     "x": 42.603,
     "y": 35.8871,
     "r": 1.6796,
-    "label": "Sterna",
+    "common": "",
+    "scientific": "Sterna",
     "url": "https://birdsoftheworld.org/bow/species/larida1/cur/introduction"
   },
   {
@@ -636,7 +715,8 @@
     "x": 37.6941,
     "y": 35.5688,
     "r": 1.5508,
-    "label": "Common Tern — Sterna hirundo",
+    "common": "Common Tern",
+    "scientific": "Sterna hirundo",
     "url": "https://birdsoftheworld.org/bow/species/comter/cur/introduction"
   },
   {
@@ -644,7 +724,8 @@
     "x": 31.8592,
     "y": 35.5181,
     "r": 1.6889,
-    "label": "Eurasian Sparrowhawk — Accipiter nisus",
+    "common": "Eurasian Sparrowhawk",
+    "scientific": "Accipiter nisus",
     "url": "https://birdsoftheworld.org/bow/species/eurspa1/cur/introduction"
   },
   {
@@ -652,7 +733,8 @@
     "x": 25.9189,
     "y": 34.3481,
     "r": 1.6138,
-    "label": "Rock Ptarmigan — Lagopus muta",
+    "common": "Rock Ptarmigan",
+    "scientific": "Lagopus muta",
     "url": "https://birdsoftheworld.org/bow/species/rocpta1/cur/introduction"
   },
   {
@@ -660,7 +742,8 @@
     "x": 19.486,
     "y": 33.13,
     "r": 1.8,
-    "label": "Guira Cuckoo — Guira guira",
+    "common": "Guira Cuckoo",
+    "scientific": "Guira guira",
     "url": "https://birdsoftheworld.org/bow/species/guicuc1/cur/introduction"
   },
   {
@@ -668,7 +751,8 @@
     "x": 13.2043,
     "y": 31.6412,
     "r": 1.8,
-    "label": "European Honey Buzzard — Pernis apivorus",
+    "common": "European Honey Buzzard",
+    "scientific": "Pernis apivorus",
     "url": "https://birdsoftheworld.org/bow/species/euhbuz1/cur/introduction"
   },
   {
@@ -676,7 +760,8 @@
     "x": 21.3179,
     "y": 56.4349,
     "r": 1.8,
-    "label": "Egyptian Vulture — Neophron percnopterus",
+    "common": "Egyptian Vulture",
+    "scientific": "Neophron percnopterus",
     "url": "https://birdsoftheworld.org/bow/species/egyvul1/cur/introduction"
   },
   {
@@ -684,7 +769,8 @@
     "x": 29.5357,
     "y": 58.4577,
     "r": 1.8,
-    "label": "European Herring Gull — Larus argentatus",
+    "common": "European Herring Gull",
+    "scientific": "Larus argentatus",
     "url": "https://birdsoftheworld.org/bow/species/euhgul1/cur/introduction"
   },
   {
@@ -692,7 +778,8 @@
     "x": 36.6126,
     "y": 59.405,
     "r": 1.8,
-    "label": "Gallus",
+    "common": "",
+    "scientific": "Gallus",
     "url": "https://birdsoftheworld.org/bow/species/phasia1/cur/introduction"
   },
   {
@@ -700,7 +787,8 @@
     "x": 65.9931,
     "y": 58.5444,
     "r": 1.8,
-    "label": "European Herring Gull — Larus argentatus",
+    "common": "European Herring Gull",
+    "scientific": "Larus argentatus",
     "url": "https://birdsoftheworld.org/bow/species/euhgul1/cur/introduction"
   },
   {
@@ -708,7 +796,8 @@
     "x": 72.8811,
     "y": 57.1726,
     "r": 1.8,
-    "label": "European Herring Gull — Larus argentatus",
+    "common": "European Herring Gull",
+    "scientific": "Larus argentatus",
     "url": "https://birdsoftheworld.org/bow/species/euhgul1/cur/introduction"
   },
   {
@@ -716,7 +805,8 @@
     "x": 23.1299,
     "y": 63.6551,
     "r": 1.8,
-    "label": "Thick-billed Murre — Uria lomvia",
+    "common": "Thick-billed Murre",
+    "scientific": "Uria lomvia",
     "url": "https://birdsoftheworld.org/bow/species/thbmur/cur/introduction"
   },
   {
@@ -724,7 +814,8 @@
     "x": 14.9318,
     "y": 61.7262,
     "r": 1.8,
-    "label": "Common Murre — Uria aalge",
+    "common": "Common Murre",
+    "scientific": "Uria aalge",
     "url": "https://birdsoftheworld.org/bow/species/commur/cur/introduction"
   },
   {
@@ -732,7 +823,8 @@
     "x": 87.0323,
     "y": 8.5019,
     "r": 0.8005,
-    "label": "Anna's Hummingbird — Calypte anna",
+    "common": "Anna's Hummingbird",
+    "scientific": "Calypte anna",
     "url": "https://birdsoftheworld.org/bow/species/annhum/cur/introduction"
   },
   {
@@ -740,7 +832,8 @@
     "x": 84.609,
     "y": 9.7314,
     "r": 0.7742,
-    "label": "Common Whitethroat — Curruca communis",
+    "common": "Common Whitethroat",
+    "scientific": "Curruca communis",
     "url": "https://birdsoftheworld.org/bow/species/grewhi1/cur/introduction"
   },
   {
@@ -748,7 +841,8 @@
     "x": 81.7124,
     "y": 10.8014,
     "r": 1.0031,
-    "label": "Green-backed Firecrown — Sephanoides sephaniodes",
+    "common": "Green-backed Firecrown",
+    "scientific": "Sephanoides sephaniodes",
     "url": "https://birdsoftheworld.org/bow/species/grbfir1/cur/introduction"
   },
   {
@@ -756,7 +850,8 @@
     "x": 79.0676,
     "y": 11.6589,
     "r": 1.0565,
-    "label": "Wood Warbler — Phylloscopus sibilatrix",
+    "common": "Wood Warbler",
+    "scientific": "Phylloscopus sibilatrix",
     "url": "https://birdsoftheworld.org/bow/species/woowar/cur/introduction"
   },
   {
@@ -764,7 +859,8 @@
     "x": 75.7349,
     "y": 12.7117,
     "r": 1.0435,
-    "label": "Eurasian Wren — Troglodytes troglodytes",
+    "common": "Eurasian Wren",
+    "scientific": "Troglodytes troglodytes",
     "url": "https://birdsoftheworld.org/bow/species/winwre4/cur/introduction"
   },
   {
@@ -772,7 +868,8 @@
     "x": 87.6751,
     "y": 10.5081,
     "r": 0.7819,
-    "label": "Goldcrest — Regulus regulus",
+    "common": "Goldcrest",
+    "scientific": "Regulus regulus",
     "url": "https://birdsoftheworld.org/bow/species/goldcr1/cur/introduction"
   },
   {
@@ -780,7 +877,8 @@
     "x": 84.8309,
     "y": 11.7565,
     "r": 0.7742,
-    "label": "Ruby-throated Hummingbird — Archilochus colubris",
+    "common": "Ruby-throated Hummingbird",
+    "scientific": "Archilochus colubris",
     "url": "https://birdsoftheworld.org/bow/species/rthhum/cur/introduction"
   },
   {
@@ -788,7 +886,8 @@
     "x": 81.8837,
     "y": 13.4355,
     "r": 1.0031,
-    "label": "Wood Warbler — Phylloscopus sibilatrix",
+    "common": "Wood Warbler",
+    "scientific": "Phylloscopus sibilatrix",
     "url": "https://birdsoftheworld.org/bow/species/woowar/cur/introduction"
   },
   {
@@ -796,7 +895,8 @@
     "x": 88.01,
     "y": 12.5381,
     "r": 0.7819,
-    "label": "Willow Warbler — Phylloscopus trochilus",
+    "common": "Willow Warbler",
+    "scientific": "Phylloscopus trochilus",
     "url": "https://birdsoftheworld.org/bow/species/wlwwar/cur/introduction"
   },
   {
@@ -804,7 +904,8 @@
     "x": 73.2698,
     "y": 13.9219,
     "r": 1.0435,
-    "label": "Northern House Wren — Troglodytes aedon",
+    "common": "Northern House Wren",
+    "scientific": "Troglodytes aedon",
     "url": "https://birdsoftheworld.org/bow/species/houwre/cur/introduction"
   },
   {
@@ -812,7 +913,8 @@
     "x": 70.4159,
     "y": 14.8159,
     "r": 1.0043,
-    "label": "Common Reed Warbler — Acrocephalus scirpaceus",
+    "common": "Common Reed Warbler",
+    "scientific": "Acrocephalus scirpaceus",
     "url": "https://birdsoftheworld.org/bow/species/eurwar1/cur/introduction"
   },
   {
@@ -820,7 +922,8 @@
     "x": 67.8411,
     "y": 15.4126,
     "r": 1.0043,
-    "label": "Vermilion Flycatcher — Pyrocephalus rubinus",
+    "common": "Vermilion Flycatcher",
+    "scientific": "Pyrocephalus rubinus",
     "url": "https://birdsoftheworld.org/bow/species/verfly/cur/introduction"
   },
   {
@@ -828,7 +931,8 @@
     "x": 65.0163,
     "y": 16.1978,
     "r": 1.0708,
-    "label": "Madagascar Cuckoo — Cuculus rochii",
+    "common": "Madagascar Cuckoo",
+    "scientific": "Cuculus rochii",
     "url": "https://birdsoftheworld.org/bow/species/madcuc1/cur/introduction"
   },
   {
@@ -836,7 +940,8 @@
     "x": 62.2658,
     "y": 16.8103,
     "r": 1.0708,
-    "label": "Marsh Warbler — Acrocephalus palustris",
+    "common": "Marsh Warbler",
+    "scientific": "Acrocephalus palustris",
     "url": "https://birdsoftheworld.org/bow/species/marwar3/cur/introduction"
   },
   {
@@ -844,7 +949,8 @@
     "x": 59.3399,
     "y": 17.2287,
     "r": 1.1231,
-    "label": "Eastern Wood Pewee — Contopus virens",
+    "common": "Eastern Wood Pewee",
+    "scientific": "Contopus virens",
     "url": "https://birdsoftheworld.org/bow/species/eawpew/cur/introduction"
   },
   {
@@ -852,7 +958,8 @@
     "x": 84.8001,
     "y": 13.973,
     "r": 0.8423,
-    "label": "Marsh Wren — Cistothorus palustris",
+    "common": "Marsh Wren",
+    "scientific": "Cistothorus palustris",
     "url": "https://birdsoftheworld.org/bow/species/marwre/cur/introduction"
   },
   {
@@ -860,7 +967,8 @@
     "x": 87.8583,
     "y": 14.6054,
     "r": 0.7877,
-    "label": "European Serin — Serinus serinus",
+    "common": "European Serin",
+    "scientific": "Serinus serinus",
     "url": "https://birdsoftheworld.org/bow/species/eurser1/cur/introduction"
   },
   {
@@ -868,7 +976,8 @@
     "x": 78.4305,
     "y": 14.9279,
     "r": 1.2392,
-    "label": "Wren-like Rushbird — Phleocryptes melanops",
+    "common": "Wren-like Rushbird",
+    "scientific": "Phleocryptes melanops",
     "url": "https://birdsoftheworld.org/bow/species/wrlrus1/cur/introduction"
   },
   {
@@ -876,7 +985,8 @@
     "x": 81.1983,
     "y": 16.6827,
     "r": 1.2454,
-    "label": "Common Reed Warbler — Acrocephalus scirpaceus",
+    "common": "Common Reed Warbler",
+    "scientific": "Acrocephalus scirpaceus",
     "url": "https://birdsoftheworld.org/bow/species/eurwar1/cur/introduction"
   },
   {
@@ -884,7 +994,8 @@
     "x": 85.0136,
     "y": 16.3234,
     "r": 0.8968,
-    "label": "Common Reed Warbler — Acrocephalus scirpaceus",
+    "common": "Common Reed Warbler",
+    "scientific": "Acrocephalus scirpaceus",
     "url": "https://birdsoftheworld.org/bow/species/eurwar1/cur/introduction"
   },
   {
@@ -892,7 +1003,8 @@
     "x": 87.9663,
     "y": 17.3103,
     "r": 1.0287,
-    "label": "African Stonechat — Saxicola torquatus",
+    "common": "African Stonechat",
+    "scientific": "Saxicola torquatus",
     "url": "https://birdsoftheworld.org/bow/species/afrsto1/cur/introduction"
   },
   {
@@ -900,7 +1012,8 @@
     "x": 88.2375,
     "y": 20.007,
     "r": 1.0299,
-    "label": "Marsh Warbler — Acrocephalus palustris",
+    "common": "Marsh Warbler",
+    "scientific": "Acrocephalus palustris",
     "url": "https://birdsoftheworld.org/bow/species/marwar3/cur/introduction"
   },
   {
@@ -908,7 +1021,8 @@
     "x": 84.4892,
     "y": 19.2746,
     "r": 0.9983,
-    "label": "Common Redstart — Phoenicurus phoenicurus",
+    "common": "Common Redstart",
+    "scientific": "Phoenicurus phoenicurus",
     "url": "https://birdsoftheworld.org/bow/species/comred2/cur/introduction"
   },
   {
@@ -916,7 +1030,8 @@
     "x": 75.5009,
     "y": 16.3604,
     "r": 1.1549,
-    "label": "Hirundinae",
+    "common": "",
+    "scientific": "Hirundinae",
     "url": "https://birdsoftheworld.org/bow/species/hirund2/cur/introduction"
   },
   {
@@ -924,7 +1039,8 @@
     "x": 77.5409,
     "y": 18.6131,
     "r": 1.1549,
-    "label": "Red-backed Shrike — Lanius collurio",
+    "common": "Red-backed Shrike",
+    "scientific": "Lanius collurio",
     "url": "https://birdsoftheworld.org/bow/species/rebshr1/cur/introduction"
   },
   {
@@ -932,7 +1048,8 @@
     "x": 80.3734,
     "y": 20.8172,
     "r": 1.3385,
-    "label": "Common Cuckoo — Cuculus canorus",
+    "common": "Common Cuckoo",
+    "scientific": "Cuculus canorus",
     "url": "https://birdsoftheworld.org/bow/species/comcuc/cur/introduction"
   },
   {
@@ -940,7 +1057,8 @@
     "x": 84.8672,
     "y": 21.8745,
     "r": 0.9983,
-    "label": "Common Cuckoo — Cuculus canorus",
+    "common": "Common Cuckoo",
+    "scientific": "Cuculus canorus",
     "url": "https://birdsoftheworld.org/bow/species/comcuc/cur/introduction"
   },
   {
@@ -948,7 +1066,8 @@
     "x": 88.09,
     "y": 22.778,
     "r": 1.0545,
-    "label": "Species unknown",
+    "common": "",
+    "scientific": "Species unknown",
     "url": ""
   },
   {
@@ -956,7 +1075,8 @@
     "x": 72.1928,
     "y": 17.4092,
     "r": 1.1541,
-    "label": "Madagascar Cuckoo — Cuculus rochii",
+    "common": "Madagascar Cuckoo",
+    "scientific": "Cuculus rochii",
     "url": "https://birdsoftheworld.org/bow/species/madcuc1/cur/introduction"
   },
   {
@@ -964,7 +1084,8 @@
     "x": 73.9735,
     "y": 19.8696,
     "r": 1.1541,
-    "label": "Reed Bunting — Emberiza schoeniclus",
+    "common": "Reed Bunting",
+    "scientific": "Emberiza schoeniclus",
     "url": "https://birdsoftheworld.org/bow/species/reebun/cur/introduction"
   },
   {
@@ -972,7 +1093,8 @@
     "x": 56.3678,
     "y": 17.7721,
     "r": 1.0411,
-    "label": "Hirundinae",
+    "common": "",
+    "scientific": "Hirundinae",
     "url": "https://birdsoftheworld.org/bow/species/hirund2/cur/introduction"
   },
   {
@@ -980,7 +1102,8 @@
     "x": 53.6507,
     "y": 18.123,
     "r": 1.0411,
-    "label": "Spotted Flycatcher — Muscicapa striata",
+    "common": "Spotted Flycatcher",
+    "scientific": "Muscicapa striata",
     "url": "https://birdsoftheworld.org/bow/species/spofly1/cur/introduction"
   },
   {
@@ -988,7 +1111,8 @@
     "x": 50.6722,
     "y": 18.3882,
     "r": 0.9672,
-    "label": "European Robin — Erithacus rubecula",
+    "common": "European Robin",
+    "scientific": "Erithacus rubecula",
     "url": "https://birdsoftheworld.org/bow/species/eurrob1/cur/introduction"
   },
   {
@@ -996,7 +1120,8 @@
     "x": 48.1616,
     "y": 18.8066,
     "r": 0.9672,
-    "label": "Hirundinae",
+    "common": "",
+    "scientific": "Hirundinae",
     "url": "https://birdsoftheworld.org/bow/species/hirund2/cur/introduction"
   },
   {
@@ -1004,7 +1129,8 @@
     "x": 45.2989,
     "y": 18.9466,
     "r": 1.0891,
-    "label": "Hirundinae",
+    "common": "",
+    "scientific": "Hirundinae",
     "url": "https://birdsoftheworld.org/bow/species/hirund2/cur/introduction"
   },
   {
@@ -1012,7 +1138,8 @@
     "x": 42.4373,
     "y": 19.1065,
     "r": 1.019,
-    "label": "Tree Pipit — Anthus trivialis",
+    "common": "Tree Pipit",
+    "scientific": "Anthus trivialis",
     "url": "https://birdsoftheworld.org/bow/species/trepip/cur/introduction"
   },
   {
@@ -1020,7 +1147,8 @@
     "x": 39.5808,
     "y": 19.1799,
     "r": 1.0771,
-    "label": "Scissor-tailed Flycatcher — Tyrannus forficatus",
+    "common": "Scissor-tailed Flycatcher",
+    "scientific": "Tyrannus forficatus",
     "url": "https://birdsoftheworld.org/bow/species/sctfly/cur/introduction"
   },
   {
@@ -1028,7 +1156,8 @@
     "x": 36.7473,
     "y": 19.1022,
     "r": 1.0771,
-    "label": "Grey Catbird — Dumetella carolinensis",
+    "common": "Grey Catbird",
+    "scientific": "Dumetella carolinensis",
     "url": "https://birdsoftheworld.org/bow/species/grycat/cur/introduction"
   },
   {
@@ -1036,7 +1165,8 @@
     "x": 33.7904,
     "y": 19.075,
     "r": 1.1237,
-    "label": "Eastern Kingbird — Tyrannus tyrannus",
+    "common": "Eastern Kingbird",
+    "scientific": "Tyrannus tyrannus",
     "url": "https://birdsoftheworld.org/bow/species/easkin/cur/introduction"
   },
   {
@@ -1044,7 +1174,8 @@
     "x": 30.7168,
     "y": 19.0158,
     "r": 1.1435,
-    "label": "Tropical Kingbird — Tyrannus melancholicus",
+    "common": "Tropical Kingbird",
+    "scientific": "Tyrannus melancholicus",
     "url": "https://birdsoftheworld.org/bow/species/trokin/cur/introduction"
   },
   {
@@ -1052,7 +1183,8 @@
     "x": 27.6187,
     "y": 18.7615,
     "r": 1.17,
-    "label": "Corn Bunting — Emberiza calandra",
+    "common": "Corn Bunting",
+    "scientific": "Emberiza calandra",
     "url": "https://birdsoftheworld.org/bow/species/corbun1/cur/introduction"
   },
   {
@@ -1060,7 +1192,8 @@
     "x": 24.5562,
     "y": 18.4451,
     "r": 1.17,
-    "label": "Malagasy Bulbul — Hypsipetes madagascariensis",
+    "common": "Malagasy Bulbul",
+    "scientific": "Hypsipetes madagascariensis",
     "url": "https://birdsoftheworld.org/bow/species/madbul1/cur/introduction"
   },
   {
@@ -1068,7 +1201,8 @@
     "x": 21.2019,
     "y": 18.0068,
     "r": 1.1762,
-    "label": "Rufous-tailed Plantcutter — Phytotoma rara",
+    "common": "Rufous-tailed Plantcutter",
+    "scientific": "Phytotoma rara",
     "url": "https://birdsoftheworld.org/bow/species/rutpla1/cur/introduction"
   },
   {
@@ -1076,7 +1210,8 @@
     "x": 18.1136,
     "y": 17.7976,
     "r": 1.1215,
-    "label": "Iberian Grey Shrike — Lanius meridionalis",
+    "common": "Iberian Grey Shrike",
+    "scientific": "Lanius meridionalis",
     "url": "https://birdsoftheworld.org/bow/species/ibgshr1/cur/introduction"
   },
   {
@@ -1084,7 +1219,8 @@
     "x": 15.1678,
     "y": 17.6184,
     "r": 1.1215,
-    "label": "Species unknown",
+    "common": "",
+    "scientific": "Species unknown",
     "url": ""
   },
   {
@@ -1092,7 +1228,8 @@
     "x": 11.7923,
     "y": 16.407,
     "r": 1.3628,
-    "label": "Red Junglefowl — Gallus gallus",
+    "common": "Red Junglefowl",
+    "scientific": "Gallus gallus",
     "url": "https://birdsoftheworld.org/bow/species/redjun/cur/introduction"
   },
   {
@@ -1100,7 +1237,8 @@
     "x": 12.227,
     "y": 20.0216,
     "r": 1.0913,
-    "label": "Calandra Lark — Melanocorypha calandra",
+    "common": "Calandra Lark",
+    "scientific": "Melanocorypha calandra",
     "url": "https://birdsoftheworld.org/bow/species/callar1/cur/introduction"
   },
   {
@@ -1108,7 +1246,8 @@
     "x": 16.6456,
     "y": 21.1072,
     "r": 1.2791,
-    "label": "Rosy Pipit — Anthus roseatus",
+    "common": "Rosy Pipit",
+    "scientific": "Anthus roseatus",
     "url": "https://birdsoftheworld.org/bow/species/rospip1/cur/introduction"
   },
   {
@@ -1116,7 +1255,8 @@
     "x": 21.0538,
     "y": 21.1829,
     "r": 1.0594,
-    "label": "Hirundinae",
+    "common": "",
+    "scientific": "Hirundinae",
     "url": "https://birdsoftheworld.org/bow/species/hirund2/cur/introduction"
   },
   {
@@ -1124,7 +1264,8 @@
     "x": 12.363,
     "y": 22.8903,
     "r": 1.0913,
-    "label": "Madagascar Buttonquail — Turnix nigricollis",
+    "common": "Madagascar Buttonquail",
+    "scientific": "Turnix nigricollis",
     "url": "https://birdsoftheworld.org/bow/species/madbut1/cur/introduction"
   },
   {
@@ -1132,7 +1273,8 @@
     "x": 16.8175,
     "y": 24.4689,
     "r": 1.2791,
-    "label": "Great Grey Shrike — Lanius excubitor",
+    "common": "Great Grey Shrike",
+    "scientific": "Lanius excubitor",
     "url": "https://birdsoftheworld.org/bow/species/norshr1/cur/introduction"
   },
   {
@@ -1140,7 +1282,8 @@
     "x": 21.0983,
     "y": 23.9705,
     "r": 1.0047,
-    "label": "Grey Catbird — Dumetella carolinensis",
+    "common": "Grey Catbird",
+    "scientific": "Dumetella carolinensis",
     "url": "https://birdsoftheworld.org/bow/species/grycat/cur/introduction"
   },
   {
@@ -1148,7 +1291,8 @@
     "x": 13.0442,
     "y": 26.8021,
     "r": 1.5089,
-    "label": "Charadriiformes",
+    "common": "",
+    "scientific": "Charadriiformes",
     "url": "https://birdsoftheworld.org/bow/species/charad1/cur/introduction"
   },
   {
@@ -1156,7 +1300,8 @@
     "x": 24.8481,
     "y": 21.626,
     "r": 1.0785,
-    "label": "Eurasian Skylark — Alauda arvensis",
+    "common": "Eurasian Skylark",
+    "scientific": "Alauda arvensis",
     "url": "https://birdsoftheworld.org/bow/species/skylar/cur/introduction"
   },
   {
@@ -1164,7 +1309,8 @@
     "x": 29.8954,
     "y": 21.9109,
     "r": 1.1367,
-    "label": "Long-billed Bernieria — Bernieria madagascariensis",
+    "common": "Long-billed Bernieria",
+    "scientific": "Bernieria madagascariensis",
     "url": "https://birdsoftheworld.org/bow/species/lobber1/cur/introduction"
   },
   {
@@ -1172,7 +1318,8 @@
     "x": 25.1562,
     "y": 24.4474,
     "r": 1.0785,
-    "label": "Phoenicurus",
+    "common": "",
+    "scientific": "Phoenicurus",
     "url": "https://birdsoftheworld.org/bow/species/muscic3/cur/introduction"
   },
   {
@@ -1180,7 +1327,8 @@
     "x": 20.5923,
     "y": 26.5656,
     "r": 1.0047,
-    "label": "Eastern Kingbird — Tyrannus tyrannus",
+    "common": "Eastern Kingbird",
+    "scientific": "Tyrannus tyrannus",
     "url": "https://birdsoftheworld.org/bow/species/easkin/cur/introduction"
   },
   {
@@ -1188,7 +1336,8 @@
     "x": 17.4673,
     "y": 28.8238,
     "r": 1.4651,
-    "label": "Cream-colored Courser — Cursorius cursor",
+    "common": "Cream-colored Courser",
+    "scientific": "Cursorius cursor",
     "url": "https://birdsoftheworld.org/bow/species/crccou1/cur/introduction"
   },
   {
@@ -1196,7 +1345,8 @@
     "x": 23.0873,
     "y": 29.9853,
     "r": 1.5953,
-    "label": "Black Tern — Chlidonias niger",
+    "common": "Black Tern",
+    "scientific": "Chlidonias niger",
     "url": "https://birdsoftheworld.org/bow/species/blkter/cur/introduction"
   },
   {
@@ -1204,7 +1354,8 @@
     "x": 26.2464,
     "y": 27.2205,
     "r": 1.1323,
-    "label": "Great Antshrike — Taraba major",
+    "common": "Great Antshrike",
+    "scientific": "Taraba major",
     "url": "https://birdsoftheworld.org/bow/species/greant1/cur/introduction"
   },
   {
@@ -1212,7 +1363,8 @@
     "x": 28.8933,
     "y": 24.7292,
     "r": 1.1367,
-    "label": "Woodchat Shrike — Lanius senator",
+    "common": "Woodchat Shrike",
+    "scientific": "Lanius senator",
     "url": "https://birdsoftheworld.org/bow/species/wooshr1/cur/introduction"
   },
   {
@@ -1220,7 +1372,8 @@
     "x": 34.4344,
     "y": 22.2572,
     "r": 1.2016,
-    "label": "Tree Pipit — Anthus trivialis",
+    "common": "Tree Pipit",
+    "scientific": "Anthus trivialis",
     "url": "https://birdsoftheworld.org/bow/species/trepip/cur/introduction"
   },
   {
@@ -1228,7 +1381,8 @@
     "x": 33.134,
     "y": 25.1394,
     "r": 1.2016,
-    "label": "Tree Pipit — Anthus trivialis",
+    "common": "Tree Pipit",
+    "scientific": "Anthus trivialis",
     "url": "https://birdsoftheworld.org/bow/species/trepip/cur/introduction"
   },
   {
@@ -1236,7 +1390,8 @@
     "x": 31.0537,
     "y": 28.1714,
     "r": 1.3973,
-    "label": "Eurasian Skylark — Alauda arvensis",
+    "common": "Eurasian Skylark",
+    "scientific": "Alauda arvensis",
     "url": "https://birdsoftheworld.org/bow/species/skylar/cur/introduction"
   },
   {
@@ -1244,7 +1399,8 @@
     "x": 28.2854,
     "y": 30.8217,
     "r": 1.4563,
-    "label": "Kentish Plover — Anarhynchus alexandrinus",
+    "common": "Kentish Plover",
+    "scientific": "Anarhynchus alexandrinus",
     "url": "https://birdsoftheworld.org/bow/species/kenplo1/cur/introduction"
   },
   {
@@ -1252,7 +1408,8 @@
     "x": 68.7915,
     "y": 18.8562,
     "r": 1.3047,
-    "label": "Woodchat Shrike — Lanius senator",
+    "common": "Woodchat Shrike",
+    "scientific": "Lanius senator",
     "url": "https://birdsoftheworld.org/bow/species/wooshr1/cur/introduction"
   },
   {
@@ -1260,7 +1417,8 @@
     "x": 65.4239,
     "y": 19.5249,
     "r": 1.2299,
-    "label": "Reed Bunting — Emberiza schoeniclus",
+    "common": "Reed Bunting",
+    "scientific": "Emberiza schoeniclus",
     "url": "https://birdsoftheworld.org/bow/species/reebun/cur/introduction"
   },
   {
@@ -1268,7 +1426,8 @@
     "x": 61.4806,
     "y": 20.0949,
     "r": 1.222,
-    "label": "Barn Swallow — Hirundo rustica",
+    "common": "Barn Swallow",
+    "scientific": "Hirundo rustica",
     "url": "https://birdsoftheworld.org/bow/species/barswa/cur/introduction"
   },
   {
@@ -1276,7 +1435,8 @@
     "x": 58.1376,
     "y": 20.8348,
     "r": 1.1645,
-    "label": "Barn Swallow — Hirundo rustica",
+    "common": "Barn Swallow",
+    "scientific": "Hirundo rustica",
     "url": "https://birdsoftheworld.org/bow/species/barswa/cur/introduction"
   },
   {
@@ -1284,7 +1444,8 @@
     "x": 54.7167,
     "y": 21.3164,
     "r": 1.148,
-    "label": "American Cliff Swallow — Petrochelidon pyrrhonota",
+    "common": "American Cliff Swallow",
+    "scientific": "Petrochelidon pyrrhonota",
     "url": "https://birdsoftheworld.org/bow/species/cliswa/cur/introduction"
   },
   {
@@ -1292,7 +1453,8 @@
     "x": 51.2735,
     "y": 21.4925,
     "r": 1.2015,
-    "label": "Western House Martin — Delichon urbicum",
+    "common": "Western House Martin",
+    "scientific": "Delichon urbicum",
     "url": "https://birdsoftheworld.org/bow/species/comhom1/cur/introduction"
   },
   {
@@ -1300,7 +1462,8 @@
     "x": 47.3457,
     "y": 21.7104,
     "r": 1.1462,
-    "label": "Tree Pipit — Anthus trivialis",
+    "common": "Tree Pipit",
+    "scientific": "Anthus trivialis",
     "url": "https://birdsoftheworld.org/bow/species/trepip/cur/introduction"
   },
   {
@@ -1308,7 +1471,8 @@
     "x": 43.3558,
     "y": 21.626,
     "r": 1.019,
-    "label": "Hirundinae",
+    "common": "",
+    "scientific": "Hirundinae",
     "url": "https://birdsoftheworld.org/bow/species/hirund2/cur/introduction"
   },
   {
@@ -1316,7 +1480,8 @@
     "x": 39.0552,
     "y": 22.0354,
     "r": 1.1033,
-    "label": "Masked Shrike — Lanius nubicus",
+    "common": "Masked Shrike",
+    "scientific": "Lanius nubicus",
     "url": "https://birdsoftheworld.org/bow/species/masshr1/cur/introduction"
   },
   {
@@ -1324,7 +1489,8 @@
     "x": 87.606,
     "y": 25.7788,
     "r": 1.155,
-    "label": "European Nightjar — Caprimulgus europaeus",
+    "common": "European Nightjar",
+    "scientific": "Caprimulgus europaeus",
     "url": "https://birdsoftheworld.org/bow/species/eurnig1/cur/introduction"
   },
   {
@@ -1332,7 +1498,8 @@
     "x": 81.9804,
     "y": 23.9516,
     "r": 1.2417,
-    "label": "Western Kingbird — Tyrannus verticalis",
+    "common": "Western Kingbird",
+    "scientific": "Tyrannus verticalis",
     "url": "https://birdsoftheworld.org/bow/species/weskin/cur/introduction"
   },
   {
@@ -1340,7 +1507,8 @@
     "x": 83.4113,
     "y": 26.8893,
     "r": 1.2417,
-    "label": "Common Quail — Coturnix coturnix",
+    "common": "Common Quail",
+    "scientific": "Coturnix coturnix",
     "url": "https://birdsoftheworld.org/bow/species/comqua1/cur/introduction"
   },
   {
@@ -1348,7 +1516,8 @@
     "x": 77.7541,
     "y": 24.602,
     "r": 1.0649,
-    "label": "Black Wheatear — Oenanthe leucura",
+    "common": "Black Wheatear",
+    "scientific": "Oenanthe leucura",
     "url": "https://birdsoftheworld.org/bow/species/blawhe1/cur/introduction"
   },
   {
@@ -1356,7 +1525,8 @@
     "x": 75.9238,
     "y": 22.48,
     "r": 1.0649,
-    "label": "Corn Bunting — Emberiza calandra",
+    "common": "Corn Bunting",
+    "scientific": "Emberiza calandra",
     "url": "https://birdsoftheworld.org/bow/species/corbun1/cur/introduction"
   },
   {
@@ -1364,7 +1534,8 @@
     "x": 79.0913,
     "y": 27.753,
     "r": 1.3007,
-    "label": "Fieldfare — Turdus pilaris",
+    "common": "Fieldfare",
+    "scientific": "Turdus pilaris",
     "url": "https://birdsoftheworld.org/bow/species/fieldf/cur/introduction"
   },
   {
@@ -1372,7 +1543,8 @@
     "x": 70.598,
     "y": 22.1247,
     "r": 1.3585,
-    "label": "Eurasian Skylark — Alauda arvensis",
+    "common": "Eurasian Skylark",
+    "scientific": "Alauda arvensis",
     "url": "https://birdsoftheworld.org/bow/species/skylar/cur/introduction"
   },
   {
@@ -1380,7 +1552,8 @@
     "x": 73.2981,
     "y": 25.2504,
     "r": 1.3582,
-    "label": "Red-backed Shrike — Lanius collurio",
+    "common": "Red-backed Shrike",
+    "scientific": "Lanius collurio",
     "url": "https://birdsoftheworld.org/bow/species/rebshr1/cur/introduction"
   },
   {
@@ -1388,7 +1561,8 @@
     "x": 74.9777,
     "y": 28.4054,
     "r": 1.3582,
-    "label": "Collared Pratincole — Glareola pratincola",
+    "common": "Collared Pratincole",
+    "scientific": "Glareola pratincola",
     "url": "https://birdsoftheworld.org/bow/species/colpra/cur/introduction"
   },
   {
@@ -1396,7 +1570,8 @@
     "x": 70.6088,
     "y": 29.1258,
     "r": 1.5012,
-    "label": "European Nightjar — Caprimulgus europaeus",
+    "common": "European Nightjar",
+    "scientific": "Caprimulgus europaeus",
     "url": "https://birdsoftheworld.org/bow/species/eurnig1/cur/introduction"
   },
   {
@@ -1404,7 +1579,8 @@
     "x": 69.1432,
     "y": 25.3902,
     "r": 1.3585,
-    "label": "Social Flycatcher — Myiozetetes similis",
+    "common": "Social Flycatcher",
+    "scientific": "Myiozetetes similis",
     "url": "https://birdsoftheworld.org/bow/species/socfly1/cur/introduction"
   },
   {
@@ -1412,7 +1588,8 @@
     "x": 65.957,
     "y": 22.7172,
     "r": 1.2299,
-    "label": "Horned Lark — Eremophila alpestris",
+    "common": "Horned Lark",
+    "scientific": "Eremophila alpestris",
     "url": "https://birdsoftheworld.org/bow/species/horlar/cur/introduction"
   },
   {
@@ -1420,7 +1597,8 @@
     "x": 66.1489,
     "y": 29.6824,
     "r": 1.3908,
-    "label": "Eurasian Golden Oriole — Oriolus oriolus",
+    "common": "Eurasian Golden Oriole",
+    "scientific": "Oriolus oriolus",
     "url": "https://birdsoftheworld.org/bow/species/eugori2/cur/introduction"
   },
   {
@@ -1428,7 +1606,8 @@
     "x": 61.6775,
     "y": 30.4563,
     "r": 1.4228,
-    "label": "Common Starling — Sturnus vulgaris",
+    "common": "Common Starling",
+    "scientific": "Sturnus vulgaris",
     "url": "https://birdsoftheworld.org/bow/species/eursta/cur/introduction"
   },
   {
@@ -1436,7 +1615,8 @@
     "x": 64.7004,
     "y": 26.3212,
     "r": 1.3908,
-    "label": "Crested Lark — Galerida cristata",
+    "common": "Crested Lark",
+    "scientific": "Galerida cristata",
     "url": "https://birdsoftheworld.org/bow/species/crelar1/cur/introduction"
   },
   {
@@ -1444,7 +1624,8 @@
     "x": 61.6094,
     "y": 23.3083,
     "r": 1.222,
-    "label": "Tree Pipit — Anthus trivialis",
+    "common": "Tree Pipit",
+    "scientific": "Anthus trivialis",
     "url": "https://birdsoftheworld.org/bow/species/trepip/cur/introduction"
   },
   {
@@ -1452,7 +1633,8 @@
     "x": 57.3738,
     "y": 23.8026,
     "r": 1.1645,
-    "label": "Eurasian Chaffinch — Fringilla coelebs",
+    "common": "Eurasian Chaffinch",
+    "scientific": "Fringilla coelebs",
     "url": "https://birdsoftheworld.org/bow/species/comcha/cur/introduction"
   },
   {
@@ -1460,7 +1642,8 @@
     "x": 53.5428,
     "y": 24.1001,
     "r": 1.148,
-    "label": "Western Yellow Wagtail — Motacilla flava",
+    "common": "Western Yellow Wagtail",
+    "scientific": "Motacilla flava",
     "url": "https://birdsoftheworld.org/bow/species/eaywag1/cur/introduction"
   },
   {
@@ -1468,7 +1651,8 @@
     "x": 49.4593,
     "y": 24.5971,
     "r": 1.3596,
-    "label": "Tree Pipit — Anthus trivialis",
+    "common": "Tree Pipit",
+    "scientific": "Anthus trivialis",
     "url": "https://birdsoftheworld.org/bow/species/trepip/cur/introduction"
   },
   {
@@ -1476,7 +1660,8 @@
     "x": 45.7147,
     "y": 25.1394,
     "r": 1.2222,
-    "label": "Short-crested Flycatcher — Myiarchus ferox",
+    "common": "Short-crested Flycatcher",
+    "scientific": "Myiarchus ferox",
     "url": "https://birdsoftheworld.org/bow/species/shcfly1/cur/introduction"
   },
   {
@@ -1484,7 +1669,8 @@
     "x": 41.3472,
     "y": 25.4026,
     "r": 1.2356,
-    "label": "Great Crested Flycatcher — Myiarchus crinitus",
+    "common": "Great Crested Flycatcher",
+    "scientific": "Myiarchus crinitus",
     "url": "https://birdsoftheworld.org/bow/species/grcfly/cur/introduction"
   },
   {
@@ -1492,7 +1678,8 @@
     "x": 37.1792,
     "y": 25.2372,
     "r": 1.2621,
-    "label": "Western Yellow Wagtail — Motacilla flava",
+    "common": "Western Yellow Wagtail",
+    "scientific": "Motacilla flava",
     "url": "https://birdsoftheworld.org/bow/species/eaywag1/cur/introduction"
   },
   {
@@ -1500,7 +1687,8 @@
     "x": 59.8308,
     "y": 27.0985,
     "r": 1.4562,
-    "label": "Red-backed Shrike — Lanius collurio",
+    "common": "Red-backed Shrike",
+    "scientific": "Lanius collurio",
     "url": "https://birdsoftheworld.org/bow/species/rebshr1/cur/introduction"
   },
   {
@@ -1508,7 +1696,8 @@
     "x": 55.6097,
     "y": 27.3346,
     "r": 1.4321,
-    "label": "White Wagtail — Motacilla alba",
+    "common": "White Wagtail",
+    "scientific": "Motacilla alba",
     "url": "https://birdsoftheworld.org/bow/species/whiwag/cur/introduction"
   },
   {
@@ -1516,7 +1705,8 @@
     "x": 51.5156,
     "y": 27.619,
     "r": 1.3889,
-    "label": "Hirundinae",
+    "common": "",
+    "scientific": "Hirundinae",
     "url": "https://birdsoftheworld.org/bow/species/hirund2/cur/introduction"
   },
   {
@@ -1524,7 +1714,8 @@
     "x": 47.2564,
     "y": 27.9622,
     "r": 1.2222,
-    "label": "Tawny Pipit — Anthus campestris",
+    "common": "Tawny Pipit",
+    "scientific": "Anthus campestris",
     "url": "https://birdsoftheworld.org/bow/species/tawpip1/cur/introduction"
   },
   {
@@ -1532,7 +1723,8 @@
     "x": 43.1288,
     "y": 28.1228,
     "r": 1.2356,
-    "label": "European Rock Pipit — Anthus petrosus",
+    "common": "European Rock Pipit",
+    "scientific": "Anthus petrosus",
     "url": "https://birdsoftheworld.org/bow/species/rocpip1/cur/introduction"
   },
   {
@@ -1540,7 +1732,8 @@
     "x": 39.3223,
     "y": 28.3574,
     "r": 1.2659,
-    "label": "Red-backed Shrike — Lanius collurio",
+    "common": "Red-backed Shrike",
+    "scientific": "Lanius collurio",
     "url": "https://birdsoftheworld.org/bow/species/rebshr1/cur/introduction"
   },
   {
@@ -1548,7 +1741,8 @@
     "x": 35.2801,
     "y": 27.9622,
     "r": 1.2621,
-    "label": "House Sparrow — Passer domesticus",
+    "common": "House Sparrow",
+    "scientific": "Passer domesticus",
     "url": "https://birdsoftheworld.org/bow/species/houspa/cur/introduction"
   },
   {
@@ -1556,7 +1750,8 @@
     "x": 57.0391,
     "y": 30.8217,
     "r": 1.4321,
-    "label": "Eurasian Magpie — Pica pica",
+    "common": "Eurasian Magpie",
+    "scientific": "Pica pica",
     "url": "https://birdsoftheworld.org/bow/species/eurmag1/cur/introduction"
   },
   {
@@ -1564,7 +1759,8 @@
     "x": 52.2794,
     "y": 31.2879,
     "r": 1.4241,
-    "label": "Broad-billed Sandpiper — Calidris falcinellus",
+    "common": "Broad-billed Sandpiper",
+    "scientific": "Calidris falcinellus",
     "url": "https://birdsoftheworld.org/bow/species/brbsan/cur/introduction"
   },
   {
@@ -1572,7 +1768,8 @@
     "x": 47.8264,
     "y": 31.4971,
     "r": 1.3606,
-    "label": "Stripe-backed Bittern — Botaurus involucris",
+    "common": "Stripe-backed Bittern",
+    "scientific": "Botaurus involucris",
     "url": "https://birdsoftheworld.org/bow/species/stbbit1/cur/introduction"
   },
   {
@@ -1580,7 +1777,8 @@
     "x": 43.3895,
     "y": 31.5377,
     "r": 1.3015,
-    "label": "Common Nighthawk — Chordeiles minor",
+    "common": "Common Nighthawk",
+    "scientific": "Chordeiles minor",
     "url": "https://birdsoftheworld.org/bow/species/comnig/cur/introduction"
   },
   {
@@ -1588,7 +1786,8 @@
     "x": 38.3306,
     "y": 31.5377,
     "r": 1.2659,
-    "label": "Eurasian Magpie — Pica pica",
+    "common": "Eurasian Magpie",
+    "scientific": "Pica pica",
     "url": "https://birdsoftheworld.org/bow/species/eurmag1/cur/introduction"
   },
   {
@@ -1596,7 +1795,8 @@
     "x": 33.3431,
     "y": 31.3285,
     "r": 1.4759,
-    "label": "Common Sandpiper — Actitis hypoleucos",
+    "common": "Common Sandpiper",
+    "scientific": "Actitis hypoleucos",
     "url": "https://birdsoftheworld.org/bow/species/comsan/cur/introduction"
   }
 ]

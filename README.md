@@ -1,11 +1,11 @@
-# Interactive Egg Poster prototype
+# Interactive Egg Poster — popup version
 
-Files:
-- `index.html` — interactive page
-- `poster.png` — clean poster
-- `hotspots.json` — 200 anonymous hotspot positions, public labels, and destination URLs
+Tap/click an egg to open a small taxon card.
+- Common name
+- Scientific name
+- "Learn about this bird" button to Birds of the World
+- Unknown specimens remain on-page and do not open an external link
 
-The public hotspot file intentionally omits ZMH catalogue numbers.
+Desktop hover still shows the taxon name.
 
-## Test locally
-Serve the folder with any static web server, or publish it with GitHub Pages.
+Public hotspot data intentionally omits ZMH catalogue numbers.
