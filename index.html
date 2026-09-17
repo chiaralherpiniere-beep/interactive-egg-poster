@@ -185,7 +185,7 @@ viewport.addEventListener('pointermove',e=>{
   if(!pointers.has(e.pointerId)) return;
   const prev=pointers.get(e.pointerId);
   pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});
-  if(pointers.size===1 && scale>1){
+  if(pointers.size===1){
     panX+=e.clientX-prev.x; panY+=e.clientY-prev.y; render();
   }else if(pointers.size===2){
     const [a,b]=[...pointers.values()];
