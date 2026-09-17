@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <title>LIB Ornithology Egg Poster</title>
 <style>
 :root{--card:#ffffff;--text:#202020;--muted:#5d5d5d;--accent:#d81b60}
-html,body{margin:0;background:#111;font-family:Arial,Helvetica,sans-serif}
-.wrap{position:relative;width:min(100vw,1000px);margin:auto;line-height:0;touch-action:pan-x pan-y pinch-zoom}
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#111;font-family:Arial,Helvetica,sans-serif}
+.viewport{position:fixed;inset:0;overflow:hidden;touch-action:none;background:#111}
+.wrap{position:absolute;left:50%;top:0;width:min(100vw,1000px);line-height:0;transform-origin:0 0;will-change:transform}
 #poster{display:block;width:100%;height:auto}
 .hotspot{
   position:absolute;transform:translate(-50%,-50%);border:0;border-radius:50%;
@@ -60,6 +61,7 @@ html,body{margin:0;background:#111;font-family:Arial,Helvetica,sans-serif}
 </div>
 
 <script>
+const viewport=document.getElementById('viewport');
 const wrap=document.getElementById('wrap');
 const hoverTip=document.getElementById('hoverTip');
 const card=document.getElementById('card');
@@ -134,7 +136,77 @@ closeBtn.addEventListener('click',()=>card.style.display='none');
 document.addEventListener('click',e=>{
   if(!card.contains(e.target)) card.style.display='none';
 });
-window.addEventListener('resize',()=>card.style.display='none');
+
+// Poster-only zoom/pan: the species card is outside the transformed poster,
+// so its on-screen size stays constant.
+let scale=1, tx=0, ty=0;
+const MIN_SCALE=1, MAX_SCALE=5;
+const pointers=new Map();
+let pinchDist=null, pinchMid=null;
+
+function bw(){ return Math.min(window.innerWidth,1000); }
+function left0(){ return (window.innerWidth-bw())/2; }
+
+function clamp(){
+  const sw=bw()*scale, sh=(wrap.offsetHeight||window.innerHeight)*scale;
+  tx=Math.max(Math.min(0,window.innerWidth-sw-left0()),Math.min(tx,Math.max(0,-left0())));
+  ty=Math.max(Math.min(0,window.innerHeight-sh),Math.min(ty,0));
+}
+function apply(){
+  clamp();
+  wrap.style.transform=`translate(${tx}px,${ty}px) scale(${scale})`;
+}
+function zoomAt(x,y,s){
+  s=Math.max(MIN_SCALE,Math.min(MAX_SCALE,s));
+  const px=(x-left0()-tx)/scale, py=(y-ty)/scale;
+  tx=x-left0()-px*s; ty=y-py*s; scale=s; apply();
+}
+const dist=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
+const mid=(a,b)=>({x:(a.x+b.x)/2,y:(a.y+b.y)/2});
+
+viewport.addEventListener('pointerdown',e=>{
+  pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});
+  viewport.setPointerCapture(e.pointerId);
+  if(pointers.size===2){
+    const [a,b]=[...pointers.values()];
+    pinchDist=dist(a,b); pinchMid=mid(a,b);
+  }
+});
+viewport.addEventListener('pointermove',e=>{
+  if(!pointers.has(e.pointerId)) return;
+  const old=pointers.get(e.pointerId);
+  pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});
+  if(pointers.size===1 && scale>1){
+    tx+=e.clientX-old.x; ty+=e.clientY-old.y; apply();
+  } else if(pointers.size===2){
+    const [a,b]=[...pointers.values()], d=dist(a,b), m=mid(a,b);
+    if(pinchDist){
+      tx+=m.x-pinchMid.x; ty+=m.y-pinchMid.y; apply();
+      zoomAt(m.x,m.y,scale*(d/pinchDist));
+    }
+    pinchDist=d; pinchMid=m;
+  }
+});
+function end(e){
+  pointers.delete(e.pointerId);
+  if(pointers.size<2){pinchDist=null;pinchMid=null;}
+}
+viewport.addEventListener('pointerup',end);
+viewport.addEventListener('pointercancel',end);
+
+viewport.addEventListener('wheel',e=>{
+  e.preventDefault();
+  zoomAt(e.clientX,e.clientY,scale*Math.exp(-e.deltaY*0.002));
+},{passive:false});
+
+window.addEventListener('resize',()=>{
+  card.style.display='none';
+  if(scale===1){tx=0;ty=0;}
+  apply();
+});
+document.getElementById('poster').addEventListener('load',apply);
+apply();
+
 </script>
 </body>
 </html>
