@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
 <title>LIB Ornithology Egg Poster</title>
 <style>
 :root{--card:#ffffff;--text:#202020;--muted:#5d5d5d;--accent:#d81b60}
-html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#111;font-family:Arial,Helvetica,sans-serif}
-.viewport{position:fixed;inset:0;overflow:hidden;touch-action:none;background:#111}
-.wrap{position:absolute;left:0;top:0;width:min(100vw,1000px);line-height:0;transform-origin:0 0;will-change:transform}
+html,body{margin:0;background:#111;font-family:Arial,Helvetica,sans-serif}
+.wrap{position:relative;width:min(100vw,1000px);margin:auto;line-height:0;touch-action:pan-x pan-y pinch-zoom}
 #poster{display:block;width:100%;height:auto}
 .hotspot{
   position:absolute;transform:translate(-50%,-50%);border:0;border-radius:50%;
@@ -46,10 +45,8 @@ html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#111;font-f
 </style>
 </head>
 <body>
-<div class="viewport" id="viewport">
-  <div class="wrap" id="wrap">
-    <img id="poster" src="poster_new.PNG" alt="Ornithology Hamburg egg poster" draggable="false">
-  </div>
+<div class="wrap" id="wrap">
+  <img id="poster" src="poster.png" alt="Ornithology Hamburg egg poster">
 </div>
 
 <div id="hoverTip"></div>
@@ -63,7 +60,6 @@ html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#111;font-f
 </div>
 
 <script>
-const viewport=document.getElementById('viewport');
 const wrap=document.getElementById('wrap');
 const hoverTip=document.getElementById('hoverTip');
 const card=document.getElementById('card');
@@ -138,85 +134,7 @@ closeBtn.addEventListener('click',()=>card.style.display='none');
 document.addEventListener('click',e=>{
   if(!card.contains(e.target)) card.style.display='none';
 });
-
-// Poster-only zoom/pan. The popup remains outside the transformed layer.
-let scale=1, panX=0, panY=0;
-const MIN_SCALE=1, MAX_SCALE=5;
-const pointers=new Map();
-let oldDist=null, oldMid=null;
-
-function baseW(){ return Math.min(window.innerWidth,1000); }
-function baseX(){ return (window.innerWidth-baseW())/2; }
-
-function clampPan(){
-  const w=baseW()*scale;
-  const hh=(wrap.offsetHeight||window.innerHeight)*scale;
-  const minX=Math.min(0,window.innerWidth-w-baseX());
-  const maxX=Math.max(0,-baseX());
-  const minY=Math.min(0,window.innerHeight-hh);
-  panX=Math.max(minX,Math.min(panX,maxX));
-  panY=Math.max(minY,Math.min(panY,0));
-}
-function render(){
-  clampPan();
-  wrap.style.transform=`translate(${baseX()+panX}px,${panY}px) scale(${scale})`;
-}
-function zoomAt(x,y,next){
-  next=Math.max(MIN_SCALE,Math.min(MAX_SCALE,next));
-  const localX=(x-baseX()-panX)/scale;
-  const localY=(y-panY)/scale;
-  panX=x-baseX()-localX*next;
-  panY=y-localY*next;
-  scale=next;
-  render();
-}
-const distance=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
-const midpoint=(a,b)=>({x:(a.x+b.x)/2,y:(a.y+b.y)/2});
-
-viewport.addEventListener('pointerdown',e=>{
-  pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});
-  try{viewport.setPointerCapture(e.pointerId)}catch(_){}
-  if(pointers.size===2){
-    const [a,b]=[...pointers.values()];
-    oldDist=distance(a,b); oldMid=midpoint(a,b);
-  }
-});
-viewport.addEventListener('pointermove',e=>{
-  if(!pointers.has(e.pointerId)) return;
-  const prev=pointers.get(e.pointerId);
-  pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});
-  if(pointers.size===1){
-    panX+=e.clientX-prev.x; panY+=e.clientY-prev.y; render();
-  }else if(pointers.size===2){
-    const [a,b]=[...pointers.values()];
-    const d=distance(a,b), m=midpoint(a,b);
-    if(oldDist && oldMid){
-      panX+=m.x-oldMid.x; panY+=m.y-oldMid.y; render();
-      zoomAt(m.x,m.y,scale*(d/oldDist));
-    }
-    oldDist=d; oldMid=m;
-  }
-});
-function endPointer(e){
-  pointers.delete(e.pointerId);
-  if(pointers.size<2){oldDist=null;oldMid=null}
-}
-viewport.addEventListener('pointerup',endPointer);
-viewport.addEventListener('pointercancel',endPointer);
-
-viewport.addEventListener('wheel',e=>{
-  e.preventDefault();
-  zoomAt(e.clientX,e.clientY,scale*Math.exp(-e.deltaY*.002));
-},{passive:false});
-
-window.addEventListener('resize',()=>{
-  card.style.display='none';
-  if(scale===1){panX=0;panY=0}
-  render();
-});
-document.getElementById('poster').addEventListener('load',render);
-render();
-
+window.addEventListener('resize',()=>card.style.display='none');
 </script>
 </body>
 </html>
